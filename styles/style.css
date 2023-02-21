@@ -130,7 +130,6 @@ header .portada {
     line-height: 2.5rem;
     text-align: justify;
     color: aliceblue;
-    line-height: 3cqmax;
 }
 
 .sobre_nos .personal {
@@ -146,14 +145,14 @@ header .portada {
 
 .carousel_sobrenos {
     display: flex;
-    width: 100rem;
+    width: 100vw;
     padding: 40px 100px 40px 100px;
     margin-top: 10rem;
     background-color: rgba(5, 5, 5, 0.5);
 }
 
 
-/* servicios - ver reutilizacion de codigo */
+/* servicios  */
 
 .servicios_main{
     margin-top: 32rem;
