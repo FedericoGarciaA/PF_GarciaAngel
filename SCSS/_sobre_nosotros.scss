@@ -1,0 +1,41 @@
+@use "./variables";
+
+.instalaciones {
+    margin-top: variables.$margen_encabezado;
+    display: flex;
+    background-color: variables.$fondo_elementos;
+    align-items: center;
+
+    img {
+        padding: 2rem;
+    }
+}
+
+.sobre_nos p {
+    padding: 1rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: justify;
+    color: variables.$color_fuente;
+}
+
+.personal {
+    margin-top: 10rem;
+    display: flex;
+    background-color: variables.$fondo_elementos;
+
+    img {
+        height: 35rem;
+        padding: 15px;
+    }
+}
+
+.carousel_sobrenos {
+    display: flex;
+    justify-content: center;
+    scale: 0.75;
+    // width: 100vw;
+    padding: 40px 100px 40px 100px;
+    // margin-top: 1rem;
+    background-color: variables.$fondo_elementos;
+}

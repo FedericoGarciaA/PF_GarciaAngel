@@ -1,0 +1,43 @@
+@use "./variables";
+
+.servicios_main {
+    margin-top: variables.$margen_encabezado;
+}
+
+.servicios_cont {
+    margin-bottom: 5rem;
+    padding: 3rem;
+    display: flex;
+    background-color: variables.$fondo_elementos;
+}
+
+.servicios_img {
+    padding: 15px;
+    height: 40rem;
+}
+
+.servicios_texto {
+    padding: 20px;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    text-align: justify;
+    color: variables.$color_fuente;
+
+    ul {
+        list-style: outside;
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+}
+
+.servicios_texto h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.servicios_texto h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: justify;
+}

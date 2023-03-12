@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pegorace - No limits performance</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,7 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
+                            <div class="col-lg navbar-nav">
                                 <a class="nav-link link-light" aria-current="page" href="./index.html">Inicio</a>
                                 <a class="nav-link link-light" href="./pages/sobre_nosotros.html">Sobre nosotros</a>
                                 <a class="nav-link link-light" href="./pages/servicios.html">Servicios</a>
@@ -78,39 +78,55 @@
                 </div>
             </article>
         </section>
-        <!-- <span class="row">
-            <div class="marcas_container col-lg">
-                <ul>
-                    <li><a class="logo_marca" href="https://fueltechargentina.com.ar/tienda/ftx"><img src="./img/marcas/marca_1.png"
-                                alt="logo ftx"></a></li>
-                    <li><a class="logo_marca" href="https://www.ecstuning.com"><img src="./img/marcas/marca_2.png"
-                                alt="logo ecs tuning"></a></li>
-                    <li><a class="logo_marca" href="https://fueltechargentina.com.ar"><img src="./img/marcas/marca_3.png"
-                                alt="logo fueltech"></a></li>
-                    <li><a class="logo_marca" href="https://www.aemelectronics.com"><img src="./img/marcas/marca_4.png"
-                                alt="logo AEM"></a></li>
-                    <li><a class="logo_marca" href="https://aeromotiveinc.com"><img src="./img/marcas/marca_5.png"
-                                alt="logo aeromotive"></a></li>
-                    <li><a class="logo_marca" href="https://www.forgemotorsport.com/"><img src="./img/marcas/marca_6.png"
-                                alt="logo forge"></a></li>
-                    <li><a class="logo_marca" href="https://www.ngkntk.com"><img src="./img/marcas/marca_7.png"
-                                alt="logo ngk"></a></li>
-                    <li><a class="logo_marca" href="https://www.powerflex-deutschland.de"><img src="./img/marcas/marca_8.png"
-                                alt="logo powerflex"></a></li>
-                    <li><a class="logo_marca" href="https://www.keihin-na.com"><img src="./img/marcas/marca_9.png"
-                                alt="logo keihin"></a></li>
-                </ul>
+        <div class="container">
+            <div class="representacion_marcas row">
+                <div class="titulos_marcas col-lg">
+                    <h2 class="h2_marcas">ALGUNAS DE LAS MARCAS QUE REPRESENTAMOS</h2>
+                    <h3 class="h3_marcas">Queres sumar la tuya? <a class="link_marcas"
+                            href="./pages/contacto.html"><button class="boton_contacto">Contactanos!</button></a> </h3>
+                </div>
+                <span class="row">
+                    <div class="marcas_container col-lg">
+                        <ul>
+                            <li><a class="logo_marca" href="https://fueltechargentina.com.ar/tienda/ftx"><img
+                                        src="./img/marcas/marca_1.png" alt="logo ftx"></a></li>
+                            <li><a class="logo_marca" href="https://www.ecstuning.com"><img
+                                        src="./img/marcas/marca_2.png" alt="logo ecs tuning"></a></li>
+                            <li><a class="logo_marca" href="https://fueltechargentina.com.ar"><img
+                                        src="./img/marcas/marca_3.png" alt="logo fueltech"></a></li>
+                            <li><a class="logo_marca" href="https://www.aemelectronics.com"><img
+                                        src="./img/marcas/marca_4.png" alt="logo AEM"></a></li>
+                            <li><a class="logo_marca" href="https://aeromotiveinc.com"><img
+                                        src="./img/marcas/marca_5.png" alt="logo aeromotive"></a></li>
+                            <li><a class="logo_marca" href="https://www.forgemotorsport.com/"><img
+                                        src="./img/marcas/marca_6.png" alt="logo forge"></a></li>
+                            <li><a class="logo_marca" href="https://www.ngkntk.com"><img src="./img/marcas/marca_7.png"
+                                        alt="logo ngk"></a></li>
+                            <li><a class="logo_marca" href="https://www.powerflex-deutschland.de"><img
+                                        src="./img/marcas/marca_8.png" alt="logo powerflex"></a></li>
+                            <li><a class="logo_marca" href="https://www.keihin-na.com"><img
+                                        src="./img/marcas/marca_9.png" alt="logo keihin"></a></li>
+                        </ul>
+                    </div>
+                </span>
             </div>
-        </span> -->
-
+        </div>
     </main>
 
 
     <footer class="footer container-fluid">
-        <div class="row">
-            <div class="col-lg">
-                <div>
-                    <p>Seguinos y enterate de todas las novedades que tenemos para vos!</p>
+        <div class="container fluid row">
+            <form class="newsletter col-lg">
+                <span class="title">Suscribite a nuestro newsletter!</span>
+                <p class="description">Y enterate de nuestros eventos, promociones y descuentos antes que nadie!.</p>
+                <div class="campo_boton">
+                    <input placeholder="Ingresa tu mail" type="email" name="email" id="email-address">
+                    <button type="submit">Suscribirse</button>
+                </div>
+            </form>
+            <div class="rrss col-lg">
+                <div class="titulo_rrss">
+                    <p>Seguinos en nuestras redes!</p>
                 </div>
                 <div class="links_rrss">
                     <ul>
@@ -122,11 +138,13 @@
                                     alt="icono youtube"></a></li>
                     </ul>
                 </div>
-                <div>
-                    <p>Sitio web sin fines de lucro</p>
-                    <p>- Federico Garcia Angel -</p>
+                <div class="disclaimer">
+                    <p>Sitio web con fines educativos</p>
+                    <p>Federico Garcia Angel</p>
+                    <p>Proyecto final - Diseño web Coderhouse</p>
                 </div>
             </div>
+
         </div>
     </footer>
 

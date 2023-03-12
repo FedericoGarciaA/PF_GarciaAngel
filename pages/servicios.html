@@ -18,20 +18,20 @@
 <body>
     <header class="header container-fluid">
         <div class="portada row">
-            <div class="col-lg">
+            <div class="col-lg columna_portada">
                 <div class=logo_container>
-                    <a href="./index.html">
+                    <a href="../index.html">
                         <img class="logo img-fluid" src="../img/pegorace logo.png" alt="logo pegorace"></a>
                 </div>
                 <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
+                    <div class="container-fluid contenedor_nav">
                         <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
+                            <div class="navbar-nav col-lg">
                                 <a class="nav-link link-light" aria-current="page" href="../index.html">Inicio</a>
                                 <a class="nav-link link-light" href="./sobre_nosotros.html">Sobre nosotros</a>
                                 <a class="nav-link link-light" href="./servicios.html">Servicios</a>
@@ -104,10 +104,19 @@
 
 
     <footer class="footer container-fluid">
-        <div class="row">
-            <div class="col-lg">
-                <div>
-                    <p>Seguinos y enterate de todas las novedades que tenemos para vos!</p>
+        <div class="container fluid row">
+            <form class="newsletter col-lg">
+                <span class="title">Suscribite a nuestro newsletter!</span>
+                <p class="description">Y enterate de nuestros eventos, promociones y descuentos antes que nadie!.
+                </p>
+                <div class="campo_boton">
+                    <input placeholder="Ingresa tu mail" type="email" name="email" id="email-address">
+                    <button type="submit">Suscribirse</button>
+                </div>
+            </form>
+            <div class="rrss col-lg">
+                <div class="titulo_rrss">
+                    <p>Seguinos en nuestras redes!</p>
                 </div>
                 <div class="links_rrss">
                     <ul>
@@ -119,11 +128,13 @@
                                     alt="icono youtube"></a></li>
                     </ul>
                 </div>
-                <div>
-                    <p>Sitio web sin fines de lucro</p>
-                    <p>- Federico Garcia Angel -</p>
+                <div class="disclaimer">
+                    <p>Sitio web con fines educativos</p>
+                    <p>Federico Garcia Angel</p>
+                    <p>Proyecto final - Diseño web Coderhouse</p>
                 </div>
             </div>
+
         </div>
     </footer>
 
