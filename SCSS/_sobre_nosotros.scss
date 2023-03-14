@@ -7,12 +7,12 @@
     align-items: center;
 
     img {
-        padding: 2rem;
+        padding: 3rem;
     }
 }
 
 .sobre_nos p {
-    padding: 1rem;
+    padding: 3rem;
     font-size: 2rem;
     line-height: 3.5rem;
     text-align: justify;
@@ -22,20 +22,24 @@
 .personal {
     margin-top: 10rem;
     display: flex;
+    flex-direction: row;
     background-color: variables.$fondo_elementos;
 
-    img {
-        height: 35rem;
-        padding: 15px;
+    p {
+        padding: 3rem;
     }
+}
+
+.personal img {
+    max-height: 400px;
+    padding: 3rem;
 }
 
 .carousel_sobrenos {
     display: flex;
     justify-content: center;
-    scale: 0.75;
-    // width: 100vw;
-    padding: 40px 100px 40px 100px;
-    // margin-top: 1rem;
+
+    padding: 20px 50px 30px 50px;
+    margin-top: 4rem;
     background-color: variables.$fondo_elementos;
 }

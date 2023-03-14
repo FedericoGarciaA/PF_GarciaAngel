@@ -6,14 +6,14 @@
 
 .servicios_cont {
     margin-bottom: 5rem;
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     background-color: variables.$fondo_elementos;
 }
 
 .servicios_img {
     padding: 15px;
-    height: 40rem;
+    max-height: 350px;
 }
 
 .servicios_texto {
